@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(92, 241, 241);
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.notification{
+    height: 10vh;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.board{
+    background-color: yellow;
+    width: 450px;
+    height: 450px;
+}
+.row{
+    height: 33.5%;
+
+}
+.col{
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    cursor: pointer;
+}
